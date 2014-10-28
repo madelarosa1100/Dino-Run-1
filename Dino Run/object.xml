@@ -5,10 +5,27 @@
   <instructions>Add game instructions here.</instructions>
   <resolution>0</resolution>
   <longDescription>A simple game.</longDescription>
-  <prototypes />
+  <prototypes>
+    <actor id="id925253" />
+    <actor id="id372206" />
+    <actor id="id202408" />
+    <actor id="id994771" />
+    <actor id="id511841" />
+    <actor id="id809527" />
+    <actor id="id722164" />
+    <actor id="id141220" />
+    <actor id="id946273" />
+    <actor id="id751687" />
+    <actor id="id134061" />
+    <actor id="id872180" />
+    <actor id="id126098" />
+    <actor id="id489805" />
+  </prototypes>
   <plugins />
   <scenes>
-    <scene id="id288851" />
+    <scene id="id658787" />
+    <scene id="id259975" />
+    <scene id="id866379" />
   </scenes>
   <attributes>
     <text id="name">default name</text>

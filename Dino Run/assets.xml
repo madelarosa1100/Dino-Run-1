@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.4">
+  <sounds>
+    <sound name="TyrannosaurusRex-SoundBible">
+      <file name="TyrannosaurusRex-SoundBible.ogg" size="50379" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="background">
+      <file name="background.png" size="129264" />
+    </image>
+    <image name="DINORUN">
+      <file name="DINORUN.png" size="9982" />
+    </image>
+    <image name="instructions">
+      <file name="instructions.png" size="6141" />
+    </image>
+    <image name="play">
+      <file name="play.png" size="1996" />
+    </image>
+    <image name="chibi_t_rex_sprite_by_eanny side 2">
+      <file name="chibi_t_rex_sprite_by_eanny side 2.png" size="6241" />
+    </image>
+    <image name="arrow-keys-icon">
+      <file name="arrow-keys-icon.png" size="4381" />
+    </image>
+    <image name="Untitled">
+      <file name="Untitled.png" size="29728" />
+    </image>
+    <image name="iconmonstr-arrow-57-icon-128">
+      <file name="iconmonstr-arrow-57-icon-128.png" size="820" />
+    </image>
+    <image name="big metoer">
+      <file name="big metoer.png" size="2015" />
+    </image>
+    <image name="small meteor">
+      <file name="small meteor.png" size="1197" />
+    </image>
+    <image name="gigantic_battle_background_by_kyle_dove-d5nwldw">
+      <file name="gigantic_battle_background_by_kyle_dove-d5nwldw.png" size="36821" />
+    </image>
+    <image name="quit">
+      <file name="quit.png" size="1627" />
+    </image>
+    <image name="trexface">
+      <file name="trexface.png" size="4935" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
