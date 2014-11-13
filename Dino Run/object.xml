@@ -10,6 +10,7 @@
     <actor id="id372206" />
     <actor id="id202408" />
     <actor id="id994771" />
+    <actor id="id250818" />
     <actor id="id511841" />
     <actor id="id809527" />
     <actor id="id722164" />
@@ -20,12 +21,37 @@
     <actor id="id872180" />
     <actor id="id126098" />
     <actor id="id489805" />
+    <actor id="id240719" />
+    <actor id="id156678" />
+    <actor id="id583126" />
+    <actor id="id736839" />
+    <actor id="id140138" />
+    <actor id="id485458" />
+    <actor id="id782477" />
+    <actor id="id992336" />
+    <actor id="id314843" />
+    <actor id="id787228" />
+    <actor id="id676593" />
+    <actor id="id918446" />
+    <actor id="id618310" />
+    <actor id="id110305" />
+    <actor id="id636959" />
+    <actor id="id322262" />
+    <actor id="id730167" />
+    <actor id="id546962" />
+    <actor id="id130869" />
+    <actor id="id380058" />
+    <actor id="id219429" />
+    <actor id="id183416" />
+    <actor id="id356621" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id658787" />
     <scene id="id259975" />
     <scene id="id866379" />
+    <scene id="id527360" />
+    <scene id="id817443" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -34,6 +60,11 @@
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags" />
+    <text id="actorTags">All	Small meteor	Big Meteor</text>
+    <integer id="id411328" name="Life expert">5</integer>
+    <integer id="id560286" name="expert Meteor Speed">150</integer>
+    <integer id="id928321" name="Meteor Speed">100</integer>
+    <integer id="id991793" name="Life play">5</integer>
+    <real id="id632750" name="Time play">0</real>
   </attributes>
 </game>

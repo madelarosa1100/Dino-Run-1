@@ -4,6 +4,9 @@
     <sound name="TyrannosaurusRex-SoundBible">
       <file name="TyrannosaurusRex-SoundBible.ogg" size="50379" />
     </sound>
+    <sound name="Sympathy_For_The_Devil__Instrumental____The_Rolling_Stones">
+      <file name="Sympathy_For_The_Devil__Instrumental____The_Rolling_Stones.ogg" size="5812205" />
+    </sound>
   </sounds>
   <images>
     <image name="background">
@@ -17,9 +20,6 @@
     </image>
     <image name="play">
       <file name="play.png" size="1996" />
-    </image>
-    <image name="chibi_t_rex_sprite_by_eanny side 2">
-      <file name="chibi_t_rex_sprite_by_eanny side 2.png" size="6241" />
     </image>
     <image name="arrow-keys-icon">
       <file name="arrow-keys-icon.png" size="4381" />
@@ -44,6 +44,30 @@
     </image>
     <image name="trexface">
       <file name="trexface.png" size="4935" />
+    </image>
+    <image name="expert lvl">
+      <file name="expert lvl.png" size="6488" />
+    </image>
+    <image name="game over">
+      <file name="game over.png" size="12841" />
+    </image>
+    <image name="try aggian">
+      <file name="try aggian.png" size="3727" />
+    </image>
+    <image name="another_explosion_by_Squirrelsquid">
+      <file name="another_explosion_by_Squirrelsquid.png" size="569" />
+    </image>
+    <image name="chibi_t_rex_sprite_by_eanny side 211">
+      <file name="chibi_t_rex_sprite_by_eanny side 211.png" size="6352" />
+    </image>
+    <image name="chibi_t_rex_sprite_by_eanny side 2">
+      <file name="chibi_t_rex_sprite_by_eanny side 2.png" size="6100" />
+    </image>
+    <image name="INSTRUC">
+      <file name="INSTRUC.png" size="10983" />
+    </image>
+    <image name="meat_by_botamon-d5e2qto">
+      <file name="meat_by_botamon-d5e2qto.png" size="284" />
     </image>
   </images>
   <behaviors />

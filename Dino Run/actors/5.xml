@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id511841" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id250818" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">Trex</text>
+    <text id="name">Trex expert</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">96</real>
-      <real id="height">96</real>
+      <real id="width">91</real>
+      <real id="height">78</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,25 +18,25 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">chibi_t_rex_sprite_by_eanny side 2</image>
+    <image id="image">chibi_t_rex_sprite_by_eanny side 211</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id447489" class="CompoundBehavior" enabled="true">
+    <behavior id="id323601" class="CompoundBehavior" enabled="true">
       <attributes>
         <text id="name">Group</text>
         <text id="bundleName">Group.behavior</text>
       </attributes>
       <behaviors>
-        <behavior id="id640825" class="RuleBehavior" enabled="true">
+        <behavior id="id175826" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id415324" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+            <condition id="id880738" eventType="key" pluginPredicateTypeIndex="0" class="Key">
               <attributes>
                 <text id="name">default name</text>
                 <index id="conditionType">0</index>
@@ -48,7 +48,7 @@
                 </attributes>
               </predicate>
             </condition>
-            <condition id="id474771" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+            <condition id="id702774" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
               <attributes>
                 <index id="conditionType">1</index>
                 <text id="subjectAttribute">self.attributes.position.x</text>
@@ -63,7 +63,7 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id447857" class="MoveBehavior" enabled="true">
+            <behavior id="id876760" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -75,14 +75,14 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior id="id898335" class="RuleBehavior" enabled="true">
+        <behavior id="id169596" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id723174" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+            <condition id="id639043" eventType="key" pluginPredicateTypeIndex="0" class="Key">
               <attributes>
                 <text id="name">default name</text>
                 <index id="conditionType">0</index>
@@ -94,7 +94,7 @@
                 </attributes>
               </predicate>
             </condition>
-            <condition id="id920066" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+            <condition id="id935097" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
               <attributes>
                 <index id="conditionType">1</index>
                 <text id="subjectAttribute">self.attributes.position.x</text>
@@ -109,7 +109,7 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id825458" class="MoveBehavior" enabled="true">
+            <behavior id="id849106" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -122,6 +122,98 @@
           </behaviors>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id579012" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id158087" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey" />
+              <text id="actorTag">Big Meteor</text>
+              <real id="mode">1</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id138493" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id411328</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.attributes.id411328" />
+                <string>-1</string>
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id907695" class="RuleBehavior" enabled="false">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id664335" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id411328</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id371683" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id560286</text>
+            <text id="RHS">150</text>
+          </attributes>
+        </behavior>
+        <behavior id="id533954" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id411328</text>
+            <text id="RHS">5</text>
+          </attributes>
+        </behavior>
+        <behavior id="id712907" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id527360</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id548297" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

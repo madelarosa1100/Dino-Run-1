@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id751687" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id946273" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">Back Arrow</text>
+    <text id="name">Instructions 2</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">128</real>
-      <real id="height">96</real>
+      <real id="width">279</real>
+      <real id="height">40</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,94 +18,11 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">iconmonstr-arrow-57-icon-128</image>
+    <image id="image">instructions</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id758218" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id791842" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="touch" conditionType="inside">
-            <attributes />
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id716844" class="ChangeSceneAction" enabled="true">
-          <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id658787</text>
-            <boolean id="enableAdvertisement">false</boolean>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id735135" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id228537" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="mousePosition" conditionType="over actor">
-            <attributes />
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id520826" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">self.attributes.size.width</text>
-            <text id="RHS">132</text>
-          </attributes>
-        </behavior>
-        <behavior id="id725610" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">self.attributes.size.height</text>
-            <text id="RHS">99</text>
-          </attributes>
-        </behavior>
-      </behaviors>
-      <elseBehaviors>
-        <behavior id="id887200" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">self.attributes.size.width</text>
-            <text id="RHS">128</text>
-          </attributes>
-        </behavior>
-        <behavior id="id192808" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">self.attributes.size.height</text>
-            <text id="RHS">96</text>
-          </attributes>
-        </behavior>
-      </elseBehaviors>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>
