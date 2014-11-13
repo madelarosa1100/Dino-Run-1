@@ -182,6 +182,29 @@
             </physics>
           </aspects>
         </actor>
+        <actor id="id307603" prototype="id987734">
+          <attributes>
+            <point id="position">
+              <real id="x">457.5</real>
+              <real id="y">22.5</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Volume main menu</text>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>

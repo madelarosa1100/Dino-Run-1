@@ -69,6 +69,12 @@
     <image name="meat_by_botamon-d5e2qto">
       <file name="meat_by_botamon-d5e2qto.png" size="284" />
     </image>
+    <image name="volume noneeee">
+      <file name="volume noneeee.png" size="21948" />
+    </image>
+    <image name="volume-24-512">
+      <file name="volume-24-512.png" size="12823" />
+    </image>
   </images>
   <behaviors />
 </assets>

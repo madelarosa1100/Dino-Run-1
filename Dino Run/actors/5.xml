@@ -160,7 +160,7 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id907695" class="RuleBehavior" enabled="false">
+    <behavior id="id907695" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
@@ -175,7 +175,7 @@
           </attributes>
           <predicate type="number">
             <attributes>
-              <text id="operator">=</text>
+              <text id="operator">&lt;=</text>
               <real id="RHS">0</real>
             </attributes>
           </predicate>
@@ -190,7 +190,7 @@
             <text id="RHS">150</text>
           </attributes>
         </behavior>
-        <behavior id="id533954" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id684655" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
@@ -207,13 +207,6 @@
           </attributes>
         </behavior>
       </behaviors>
-    </behavior>
-    <behavior id="id548297" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
     </behavior>
   </behaviors>
   <aspects>

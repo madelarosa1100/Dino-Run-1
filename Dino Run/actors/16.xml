@@ -33,7 +33,7 @@
         <boolean id="positional">false</boolean>
         <boolean id="dopplerShift">false</boolean>
         <real id="volume">2.35955056179775</real>
-        <real id="pitch">1</real>
+        <real id="pitch">0</real>
       </attributes>
     </behavior>
   </behaviors>

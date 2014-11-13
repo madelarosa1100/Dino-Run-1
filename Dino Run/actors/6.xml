@@ -175,7 +175,7 @@
           </attributes>
           <predicate type="number">
             <attributes>
-              <text id="operator">=</text>
+              <text id="operator">&lt;=</text>
               <real id="RHS">0</real>
             </attributes>
           </predicate>
