@@ -115,8 +115,8 @@
         <actor id="id893407" prototype="id314843">
           <attributes>
             <point id="position">
-              <real id="x">91</real>
-              <real id="y">440</real>
+              <real id="x">84</real>
+              <real id="y">439</real>
             </point>
             <size id="size">
               <real id="width">77</real>
@@ -293,6 +293,53 @@
           </attributes>
           <aspects>
             <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id282889" prototype="id740130">
+          <attributes>
+            <point id="position">
+              <real id="x">373.5</real>
+              <real id="y">363</real>
+            </point>
+            <size id="size">
+              <real id="width">80</real>
+              <real id="height">90</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id881894" prototype="id158857">
+          <attributes>
+            <point id="position">
+              <real id="x">-75.5</real>
+              <real id="y">158.5</real>
+            </point>
+            <size id="size">
+              <real id="width">19</real>
+              <real id="height">19</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
               <attributes />
             </graphics>
             <motion />
@@ -325,7 +372,7 @@
       <real id="red">0</real>
       <real id="green">0</real>
       <real id="blue">0</real>
-      <real id="alpha">1</real>
+      <real id="alpha">0</real>
     </color>
     <rect id="camera">
       <point id="origin">

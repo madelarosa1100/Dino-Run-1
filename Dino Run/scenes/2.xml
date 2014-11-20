@@ -328,8 +328,8 @@
         <actor id="id787292" prototype="id356621">
           <attributes>
             <point id="position">
-              <real id="x">-68.5</real>
-              <real id="y">186</real>
+              <real id="x">-56.5</real>
+              <real id="y">181</real>
             </point>
             <size id="size">
               <real id="width">29</real>
@@ -422,6 +422,31 @@
             </size>
             <angle id="rotation">0</angle>
             <text id="name">Volume play</text>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id296566" prototype="id241708">
+          <attributes>
+            <point id="position">
+              <real id="x">518.5</real>
+              <real id="y">289</real>
+            </point>
+            <size id="size">
+              <real id="width">80</real>
+              <real id="height">90</real>
+            </size>
+            <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>

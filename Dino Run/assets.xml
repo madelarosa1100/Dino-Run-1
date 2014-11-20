@@ -75,6 +75,15 @@
     <image name="volume-24-512">
       <file name="volume-24-512.png" size="12823" />
     </image>
+    <image name="yep_v2_by_reffil13-d3dlt87">
+      <file name="yep_v2_by_reffil13-d3dlt87.png" size="2830" />
+    </image>
+    <image name="yep_">
+      <file name="yep_.png" size="1447" />
+    </image>
+    <image name="meat_2">
+      <file name="meat_2.png" size="237" />
+    </image>
   </images>
   <behaviors />
 </assets>
