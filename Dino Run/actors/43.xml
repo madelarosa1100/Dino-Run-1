@@ -29,21 +29,21 @@
         <text id="bundleName">MoveTo.behavior</text>
         <boolean id="runToCompletion">false</boolean>
         <point id="position">
-          <real id="x">244</real>
-          <real id="y">262</real>
+          <real id="x">-36</real>
+          <real id="y">275</real>
         </point>
         <index id="space">1</index>
-        <real id="speed">300</real>
+        <real id="speed">210.112359550562</real>
       </attributes>
     </behavior>
-    <behavior id="id380321" class="RuleBehavior" enabled="true">
+    <behavior id="id339053" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id706552" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+        <condition id="id807658" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.x</text>
@@ -52,26 +52,69 @@
           <predicate type="number">
             <attributes>
               <text id="operator">=</text>
-              <real id="RHS">244</real>
+              <real id="RHS">-36</real>
             </attributes>
           </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id474540" class="MoveToBehavior" enabled="true">
+        <behavior id="id566082" class="DestroyAction" enabled="true">
           <attributes>
-            <text id="name">Move To</text>
-            <text id="bundleName">MoveTo.behavior</text>
-            <boolean id="runToCompletion">false</boolean>
-            <point id="position">
-              <real id="x">68</real>
-              <real id="y">362</real>
-            </point>
-            <index id="space">1</index>
-            <real id="speed">300</real>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+        <behavior id="id366119" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id740130</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">520</real>
+            <real id="y">275</real>
+            <index id="positionSpace">1</index>
+            <index id="layerOrder">0</index>
           </attributes>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id677674" class="ParticlesBehavior" enabled="true">
+      <attributes>
+        <text id="name">Particles</text>
+        <text id="bundleName">Particles.behavior</text>
+        <index id="numParticles">20</index>
+        <real id="size">5</real>
+        <real id="lifetime">3</real>
+        <real id="startupTime">2</real>
+        <angle id="direction">0</angle>
+        <real id="speed">10</real>
+        <image id="image" />
+        <angle id="rotation">0</angle>
+        <real id="angularVelocity">0</real>
+        <index id="directionRelativity">0</index>
+        <real id="emitterOffsetX">0</real>
+        <real id="emitterOffsetY">0</real>
+        <boolean id="colorChange">false</boolean>
+        <boolean id="sizeChange">false</boolean>
+        <real id="colorTransitionTime">1</real>
+        <real id="sizeTarget">5</real>
+        <real id="sizeTransitionTime">0</real>
+        <color id="color">
+          <real id="red">0.811764705882353</real>
+          <real id="green">0.905882352941176</real>
+          <real id="blue">0.917647058823529</real>
+          <real id="alpha">1</real>
+        </color>
+        <color id="colorTarget">
+          <real id="red">1</real>
+          <real id="green">1</real>
+          <real id="blue">1</real>
+          <real id="alpha">1</real>
+        </color>
+        <boolean id="affectedByGravity">false</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

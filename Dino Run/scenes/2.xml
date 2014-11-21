@@ -439,8 +439,8 @@
         <actor id="id296566" prototype="id241708">
           <attributes>
             <point id="position">
-              <real id="x">518.5</real>
-              <real id="y">289</real>
+              <real id="x">520.5</real>
+              <real id="y">275</real>
             </point>
             <size id="size">
               <real id="width">80</real>
@@ -450,7 +450,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>

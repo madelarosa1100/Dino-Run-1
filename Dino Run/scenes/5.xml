@@ -226,7 +226,7 @@
           <attributes>
             <point id="position">
               <real id="x">170.5</real>
-              <real id="y">15.5</real>
+              <real id="y">19.5</real>
             </point>
             <size id="size">
               <real id="width">190</real>
@@ -274,7 +274,10 @@
             </graphics>
             <motion />
             <physics>
-              <attributes />
+              <attributes>
+                <enumeration id="collisionShape">1</enumeration>
+                <boolean id="movable">true</boolean>
+              </attributes>
             </physics>
           </aspects>
         </actor>
@@ -307,8 +310,8 @@
         <actor id="id282889" prototype="id740130">
           <attributes>
             <point id="position">
-              <real id="x">373.5</real>
-              <real id="y">363</real>
+              <real id="x">519.5</real>
+              <real id="y">275</real>
             </point>
             <size id="size">
               <real id="width">80</real>
@@ -318,7 +321,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -337,10 +343,14 @@
               <real id="height">19</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">meat_2</image>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>

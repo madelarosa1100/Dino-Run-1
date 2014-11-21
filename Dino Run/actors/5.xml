@@ -238,7 +238,7 @@
             <text id="RHS">
               <expression>
                 <reference keypath="game.attributes.id991793" />
-                <string>+1</string>
+                <string>random(1, 5)</string>
               </expression>
             </text>
           </attributes>
