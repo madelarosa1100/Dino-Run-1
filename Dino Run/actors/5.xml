@@ -237,7 +237,6 @@
             <text id="targetAttribute">game.attributes.id991793</text>
             <text id="RHS">
               <expression>
-                <reference keypath="game.attributes.id991793" />
                 <string>random(1, 5)</string>
               </expression>
             </text>

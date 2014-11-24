@@ -7,11 +7,11 @@
           <attributes>
             <point id="position">
               <real id="x">239.5</real>
-              <real id="y">160.5</real>
+              <real id="y">159.5</real>
             </point>
             <size id="size">
-              <real id="width">480</real>
-              <real id="height">320</real>
+              <real id="width">482</real>
+              <real id="height">322</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

@@ -36,6 +36,20 @@
         <real id="pitch">1</real>
       </attributes>
     </behavior>
+    <behavior id="id848506" class="PlayMusicAction" enabled="true">
+      <attributes>
+        <text id="name">Play Music</text>
+        <text id="bundleName">PlayMusic.behavior</text>
+        <music id="musicName" />
+        <boolean id="loop">false</boolean>
+      </attributes>
+    </behavior>
+    <behavior id="id140238" class="PauseMusicAction" enabled="true">
+      <attributes>
+        <text id="name">Pause Music</text>
+        <text id="bundleName">PauseMusic.behavior</text>
+      </attributes>
+    </behavior>
   </behaviors>
   <aspects>
     <graphics>
