@@ -84,6 +84,15 @@
     <image name="meat_2">
       <file name="meat_2.png" size="295" />
     </image>
+    <image name="PAUSE">
+      <file name="PAUSE.png" size="43513" />
+    </image>
+    <image name="PLAYYY">
+      <file name="PLAYYY.png" size="47913" />
+    </image>
+    <image name="PAUSED">
+      <file name="PAUSED.png" size="4893" />
+    </image>
   </images>
   <behaviors />
 </assets>

@@ -197,7 +197,7 @@
         <actor id="id328879" prototype="id322262">
           <attributes>
             <point id="position">
-              <real id="x">317.5</real>
+              <real id="x">330.5</real>
               <real id="y">16.5</real>
             </point>
             <size id="size">
@@ -228,7 +228,7 @@
         <actor id="id335463" prototype="id730167">
           <attributes>
             <point id="position">
-              <real id="x">363</real>
+              <real id="x">374</real>
               <real id="y">18</real>
             </point>
             <size id="size">
@@ -253,8 +253,8 @@
         <actor id="id710511" prototype="id130869">
           <attributes>
             <point id="position">
-              <real id="x">145.5</real>
-              <real id="y">15</real>
+              <real id="x">14.5</real>
+              <real id="y">14</real>
             </point>
             <size id="size">
               <real id="width">120</real>
@@ -410,18 +410,17 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id959624" prototype="id510560">
+        <actor id="id296566" prototype="id241708">
           <attributes>
             <point id="position">
-              <real id="x">26.5</real>
-              <real id="y">16.5</real>
+              <real id="x">520.5</real>
+              <real id="y">275</real>
             </point>
             <size id="size">
-              <real id="width">25</real>
-              <real id="height">25</real>
+              <real id="width">80</real>
+              <real id="height">90</real>
             </size>
             <angle id="rotation">0</angle>
-            <text id="name">Volume play</text>
           </attributes>
           <aspects>
             <graphics>
@@ -436,15 +435,65 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id296566" prototype="id241708">
+        <actor id="id731663" prototype="id742871">
           <attributes>
             <point id="position">
-              <real id="x">520.5</real>
-              <real id="y">275</real>
+              <real id="x">232.5</real>
+              <real id="y">17</real>
             </point>
             <size id="size">
-              <real id="width">80</real>
-              <real id="height">90</real>
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id164541" prototype="id853356">
+          <attributes>
+            <point id="position">
+              <real id="x">259.5</real>
+              <real id="y">16.5</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id545393" prototype="id803357">
+          <attributes>
+            <point id="position">
+              <real id="x">-243.5</real>
+              <real id="y">322.5</real>
+            </point>
+            <size id="size">
+              <real id="width">352</real>
+              <real id="height">78</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

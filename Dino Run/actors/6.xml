@@ -23,106 +23,6 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id447489" class="CompoundBehavior" enabled="true">
-      <attributes>
-        <text id="name">Group</text>
-        <text id="bundleName">Group.behavior</text>
-      </attributes>
-      <behaviors>
-        <behavior id="id640825" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Rule</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id415324" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="key">
-                <attributes>
-                  <text id="mode">down</text>
-                  <text id="keyString">right</text>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id474771" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">self.attributes.position.x</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="number">
-                <attributes>
-                  <text id="operator">&lt;=</text>
-                  <real id="RHS">434</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id447857" class="MoveBehavior" enabled="true">
-              <attributes>
-                <text id="name">Move</text>
-                <text id="bundleName">Move.behavior</text>
-                <angle id="direction">0</angle>
-                <index id="space">0</index>
-                <index id="moveType">0</index>
-                <real id="speed">400</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-        <behavior id="id898335" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Rule</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id723174" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="key">
-                <attributes>
-                  <text id="mode">down</text>
-                  <text id="keyString">left</text>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id920066" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">self.attributes.position.x</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="number">
-                <attributes>
-                  <text id="operator">&gt;=</text>
-                  <real id="RHS">50</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id825458" class="MoveBehavior" enabled="true">
-              <attributes>
-                <text id="name">Move</text>
-                <text id="bundleName">Move.behavior</text>
-                <angle id="direction">180</angle>
-                <index id="space">0</index>
-                <index id="moveType">0</index>
-                <real id="speed">400</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id498916" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
@@ -274,6 +174,129 @@
             <text id="targetAttribute">game.attributes.id991793</text>
             <text id="RHS">5</text>
           </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id456154" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id452046" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id279499</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">0</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id361349" class="CompoundBehavior" enabled="true">
+          <attributes>
+            <text id="name">Group</text>
+            <text id="bundleName">Group.behavior</text>
+          </attributes>
+          <behaviors>
+            <behavior id="id801868" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id727739" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">right</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id301330" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">434</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id167787" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">0</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">400</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id329443" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id488830" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">left</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id941039" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;=</text>
+                      <real id="RHS">50</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id882415" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">180</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">400</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
         </behavior>
       </behaviors>
     </behavior>

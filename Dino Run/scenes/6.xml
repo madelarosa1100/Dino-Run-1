@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.4" id="id527360">
+<scene PGFVersion="0.19" GSCVersion="0.10.4" id="id146332">
   <layers>
-    <layer id="id727919">
+    <layer id="id218102">
       <actors>
-        <actor id="id473035" prototype="id583126">
+        <actor id="id764227" prototype="id840250">
           <attributes>
             <point id="position">
-              <real id="x">246.5</real>
-              <real id="y">204</real>
+              <real id="x">238.5</real>
+              <real id="y">245</real>
             </point>
             <size id="size">
-              <real id="width">171</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id188179" prototype="id736839">
-          <attributes>
-            <point id="position">
-              <real id="x">242.5</real>
-              <real id="y">274</real>
-            </point>
-            <size id="size">
-              <real id="width">430</real>
-              <real id="height">74</real>
+              <real id="width">352</real>
+              <real id="height">78</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -61,7 +36,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Game Over</text>
+    <text id="name">Pause</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -77,7 +52,7 @@
       <real id="red">0</real>
       <real id="green">0</real>
       <real id="blue">0</real>
-      <real id="alpha">1</real>
+      <real id="alpha">0</real>
     </color>
     <rect id="camera">
       <point id="origin">

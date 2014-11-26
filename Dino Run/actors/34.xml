@@ -29,7 +29,7 @@
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
-            <reference keypath="game.attributes.time" />
+            <reference keypath="game.attributes.id560519" />
           </expression>
         </text>
         <text id="font">Arial</text>
@@ -43,6 +43,53 @@
           <real id="alpha">1</real>
         </color>
       </attributes>
+    </behavior>
+    <behavior id="id840516" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id664784" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id279499</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">0</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id241440" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">0</index>
+            <real id="interval">1</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id156735" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id560519</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id560519" />
+                    <string>+1</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>

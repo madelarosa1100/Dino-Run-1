@@ -23,38 +23,6 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id325729" class="TimerBehavior" enabled="true">
-      <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">0</index>
-        <real id="interval">
-          <expression>
-            <string>random(10, 30)</string>
-          </expression>
-        </real>
-        <boolean id="runToCompletion">false</boolean>
-      </attributes>
-      <behaviors>
-        <behavior id="id387012" class="SpawnAction" enabled="true">
-          <attributes>
-            <text id="name">Spawn Actor</text>
-            <text id="bundleName">Spawn.behavior</text>
-            <text id="prototypeKey">id356621</text>
-            <angle id="direction">0</angle>
-            <index id="directionSpace">0</index>
-            <real id="x">
-              <expression>
-                <string>random(20, 452)</string>
-              </expression>
-            </real>
-            <real id="y">49</real>
-            <index id="positionSpace">0</index>
-            <index id="layerOrder">0</index>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id314819" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
@@ -82,6 +50,61 @@
             <text id="name">Destroy</text>
             <text id="bundleName">Destroy.behavior</text>
           </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id652070" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id563348" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id279499</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">0</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id325729" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">0</index>
+            <real id="interval">
+              <expression>
+                <string>random(10, 30)</string>
+              </expression>
+            </real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id387012" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id356621</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <string>random(20, 452)</string>
+                  </expression>
+                </real>
+                <real id="y">49</real>
+                <index id="positionSpace">0</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+          </behaviors>
         </behavior>
       </behaviors>
     </behavior>

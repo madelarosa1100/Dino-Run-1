@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id546962" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id704554" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">Expert Time text</text>
+    <text id="name">your score</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -16,20 +16,20 @@
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">1</real>
+      <real id="alpha">0</real>
     </color>
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id720638" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id488368" class="DisplayTextBehavior" enabled="true">
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
-            <reference keypath="game.attributes.id560519" />
+            <reference keypath="game.attributes.id555525" />
           </expression>
         </text>
         <text id="font">Arial</text>
@@ -37,85 +37,95 @@
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">
-          <real id="red">0</real>
+          <real id="red">0.901960784313726</real>
           <real id="green">0</real>
           <real id="blue">0</real>
           <real id="alpha">1</real>
         </color>
       </attributes>
     </behavior>
-    <behavior id="id901085" class="RuleBehavior" enabled="true">
+    <behavior id="id576552" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id288445" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+        <condition id="id479506" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
             <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id279499</text>
+            <text id="subjectAttribute">game.attributes.id991793</text>
             <text id="name">default name</text>
           </attributes>
-          <predicate type="boolean">
+          <predicate type="number">
             <attributes>
-              <index id="RHS">0</index>
+              <text id="operator">&lt;=</text>
+              <real id="RHS">0</real>
             </attributes>
           </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id423118" class="TimerBehavior" enabled="true">
+        <behavior id="id688059" class="TimerBehavior" enabled="true">
           <attributes>
             <text id="name">Timer</text>
             <text id="bundleName">Timer.behavior</text>
             <index id="timerType">0</index>
-            <real id="interval">1</real>
+            <real id="interval">0</real>
             <boolean id="runToCompletion">false</boolean>
           </attributes>
           <behaviors>
-            <behavior id="id522083" class="ChangeAttributeAction" enabled="true">
+            <behavior id="id506300" class="RuleBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id560519</text>
-                <text id="RHS">
-                  <expression>
-                    <reference keypath="game.attributes.id560519" />
-                    <string>+1</string>
-                  </expression>
-                </text>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
               </attributes>
+              <conditions>
+                <condition id="id304106" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id560519</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id555525" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id827208" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id555525</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id560519" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id877516" class="SaveAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Save Attribute</text>
+                    <text id="bundleName">SaveAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id555525</text>
+                    <text id="key" />
+                  </attributes>
+                </behavior>
+              </behaviors>
             </behavior>
           </behaviors>
         </behavior>
       </behaviors>
-      <elseBehaviors>
-        <behavior id="id953630" class="TimerBehavior" enabled="true">
-          <attributes>
-            <text id="name">Timer</text>
-            <text id="bundleName">Timer.behavior</text>
-            <index id="timerType">0</index>
-            <real id="interval">1</real>
-            <boolean id="runToCompletion">false</boolean>
-          </attributes>
-          <behaviors>
-            <behavior id="id809601" class="ChangeAttributeAction" enabled="true">
-              <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id560519</text>
-                <text id="RHS">
-                  <expression>
-                    <reference keypath="game.attributes.id560519" />
-                    <string>+1</string>
-                  </expression>
-                </text>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-      </elseBehaviors>
     </behavior>
   </behaviors>
   <aspects>

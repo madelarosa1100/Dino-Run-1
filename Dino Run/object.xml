@@ -44,12 +44,14 @@
     <actor id="id219429" />
     <actor id="id183416" />
     <actor id="id356621" />
-    <actor id="id510560" />
-    <actor id="id987734" />
-    <actor id="id849199" />
     <actor id="id241708" />
     <actor id="id740130" />
     <actor id="id158857" />
+    <actor id="id840250" />
+    <actor id="id742871" />
+    <actor id="id853356" />
+    <actor id="id803357" />
+    <actor id="id704554" />
   </prototypes>
   <plugins />
   <scenes>
@@ -58,6 +60,7 @@
     <scene id="id866379" />
     <scene id="id527360" />
     <scene id="id817443" />
+    <scene id="id146332" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -72,5 +75,8 @@
     <integer id="id928321" name="Meteor Speed">100</integer>
     <integer id="id991793" name="Life play">5</integer>
     <real id="id632750" name="Time play">0</real>
+    <boolean id="id279499" name="Pause">false</boolean>
+    <real id="id560519" name="Timer">0</real>
+    <integer id="id555525" name="Highscore">0</integer>
   </attributes>
 </game>

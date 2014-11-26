@@ -225,8 +225,8 @@
         <actor id="id558234" prototype="id546962">
           <attributes>
             <point id="position">
-              <real id="x">170.5</real>
-              <real id="y">19.5</real>
+              <real id="x">17.5</real>
+              <real id="y">15.5</real>
             </point>
             <size id="size">
               <real id="width">190</real>
@@ -256,7 +256,7 @@
         <actor id="id528101" prototype="id250818">
           <attributes>
             <point id="position">
-              <real id="x">63</real>
+              <real id="x">64</real>
               <real id="y">63</real>
             </point>
             <size id="size">
@@ -278,32 +278,6 @@
                 <enumeration id="collisionShape">1</enumeration>
                 <boolean id="movable">true</boolean>
               </attributes>
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id725242" prototype="id849199">
-          <attributes>
-            <point id="position">
-              <real id="x">19.5</real>
-              <real id="y">16.5</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Volume expert</text>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
             </physics>
           </aspects>
         </actor>
@@ -344,6 +318,56 @@
             </size>
             <angle id="rotation">0</angle>
             <image id="image">meat_2</image>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id434665" prototype="id742871">
+          <attributes>
+            <point id="position">
+              <real id="x">238.5</real>
+              <real id="y">15.5</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id152832" prototype="id853356">
+          <attributes>
+            <point id="position">
+              <real id="x">267.5</real>
+              <real id="y">16.5</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>
