@@ -93,6 +93,9 @@
     <image name="PAUSED">
       <file name="PAUSED.png" size="4893" />
     </image>
+    <image name="eveil meat">
+      <file name="eveil meat.png" size="431" />
+    </image>
   </images>
   <behaviors />
 </assets>

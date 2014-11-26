@@ -106,6 +106,14 @@
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
+        <behavior id="id358702" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id560519</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
     <behavior id="id522015" class="RuleBehavior" enabled="true">
